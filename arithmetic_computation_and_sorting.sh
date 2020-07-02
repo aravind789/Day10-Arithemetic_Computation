@@ -18,3 +18,9 @@ results[2]=$equation_2
 results[3]=$equation_3
 results[4]=$equation_4
 echo ${results[@]}
+for(( i=0; i<4; i++ ))
+do
+	n=$(($i+1))
+	arr[i]=${results[n]}
+done
+echo ${arr[@]}
