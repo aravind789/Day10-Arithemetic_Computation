@@ -4,5 +4,7 @@ read -p "Enter the value :" b
 read -p "Enter the value :" c
 equation_1=$((($a+$b)*$c))
 equation_2=$((($a*$b)+$c))
+equation_3=$((($c+$a)/$b))
 echo "Result of (a+b*c)=" $equation_1
 echo "Result of (a*b+c)=" $equation_2
+echo "Result of (c+a/b)=" $equation_3
